@@ -1,0 +1,21 @@
+.page {
+  padding: 3rem;
+}
+
+.page h2 {
+  margin-bottom: 1rem;
+}
+
+.customers {
+  display: flex;
+  gap: 3rem;
+}
+
+.customers > div {
+  padding: 1em;
+  border: 1px solid black;
+}
+
+.customers > div > * {
+  margin: 0.5em;
+}
